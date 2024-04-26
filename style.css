@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/cross-boxed');
+@import url('https://fonts.cdnfonts.com/css/nitti');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nitti', sans-serif;
+}
+
+.box-form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./assets/background-form.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-box-form{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+legend{
+    font-size: 2rem;
+    font-family: 'Cross Boxed', sans-serif;
+    margin-bottom: 15px;
+}
+
+.box-username label input{
+    background: transparent;
+    border: 1px inset black;
+    outline: none;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+i{
+    margin-top: 5px;
+}
+
+.box-form input::placeholder{
+    color: #fff;
+}
+
+.box-password label input{
+    background: transparent;
+    border: 1px inset black;
+    outline: none;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.box-password input::placeholder{
+    color: #fff;
+}
+
+.remember-forgot{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.remember-forgot a{
+    text-decoration:underline;
+}
+
+.register-link{
+    text-align: center;
+    font-weight: bold;
+}
+
+.register-link p{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.register-link a{
+    text-align: center;
+}
